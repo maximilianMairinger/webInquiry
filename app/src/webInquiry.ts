@@ -1,5 +1,12 @@
+import ajax, { storage } from "./ajax"
 
 
-export default function() {
-  
-}
+(async () => {
+  storage["userKey"] = (await ajax.post("createSession", {})).userKey
+
+
+  await ajax.post("log", {ok: "okok"})
+})()
+
+
+

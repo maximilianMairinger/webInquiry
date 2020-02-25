@@ -1,4 +1,2 @@
-import webInquiry from "./../../app/src/webInquiry"
-//const testElem = document.querySelector("#test")
+import  "./../../app/src/webInquiry"
 
-webInquiry()
