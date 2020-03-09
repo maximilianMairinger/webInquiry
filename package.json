@@ -43,6 +43,7 @@
     "nodemon": "^2.0.2"
   },
   "dependencies": {
-    "ajaon": "^1.1.0"
+    "ajaon": "^1.2.2",
+    "mysql": "^2.18.1"
   }
 }
